@@ -64,7 +64,7 @@ Nossa cena é dividida em três camadas principais:
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/seu-usuario/projeto-parallax-it.git
+git clone https://github.com/tatyquebralayout/It-a-coisa-parallax.git
 ```
 
 2. Abra o arquivo `index.html` no seu navegador
