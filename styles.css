@@ -192,3 +192,22 @@
         opacity: 0.7;
     }
 }
+
+/* Acessibilidade: com "reduzir movimento" ligado no sistema, a cena fica parada
+   Accessibility: when the OS asks for reduced motion, the scene stays still */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation: none !important;
+        transition: none !important;
+    }
+    .wrapper:hover,
+    .wrapper:hover .frame,
+    .wrapper:hover .balao1,
+    .wrapper:hover .balao2,
+    .wrapper:hover .balao3 {
+        transform: none;
+    }
+    .wrapper:hover {
+        transform: translate(-50%, -50%);
+    }
+}
