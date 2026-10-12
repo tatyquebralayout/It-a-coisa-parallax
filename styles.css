@@ -48,6 +48,7 @@
 /* Configurações gerais dos balões */
 .balao {
     position: absolute;
+    width: auto; /* mantém a proporção do SVG */
     pointer-events: none; /* Desativa interações com os balões */
     animation: float 4s ease-in-out infinite;
 }
@@ -190,5 +191,24 @@
     
     .frame::after {
         opacity: 0.7;
+    }
+}
+
+/* Acessibilidade: com "reduzir movimento" ligado no sistema, a cena fica parada
+   Accessibility: when the OS asks for reduced motion, the scene stays still */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation: none !important;
+        transition: none !important;
+    }
+    .wrapper:hover,
+    .wrapper:hover .frame,
+    .wrapper:hover .balao1,
+    .wrapper:hover .balao2,
+    .wrapper:hover .balao3 {
+        transform: none;
+    }
+    .wrapper:hover {
+        transform: translate(-50%, -50%);
     }
 }
