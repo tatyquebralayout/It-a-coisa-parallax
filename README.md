@@ -1,3 +1,9 @@
+<img src="preview.webp" width="480" alt="Prévia: a cena do balão vermelho de It: A Coisa com efeito parallax · Preview: the red balloon scene from It with a parallax effect">
+
+### [▶ Ver ao vivo · See it live](https://tatyquebralayout.github.io/It-a-coisa-parallax/)
+
+> 🇺🇸 **In English:** a step-by-step tutorial that recreates the red balloon scene from *It* with a parallax effect in pure HTML and CSS, no JavaScript. The tutorial below is in Portuguese.
+
 # 🎈 Tutorial Parallax: Recriando a Cena de "It: A Coisa"
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/tatyquebralayout/It-a-coisa-parallax)
