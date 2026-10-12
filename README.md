@@ -63,7 +63,7 @@ Nossa cena é dividida em três camadas principais:
 📂 projeto_parallax
 ├── 📂 assets
 │   ├── 🖼️ palhaco.png
-│   ├── 🖼️ balao.png
+│   ├── 🖼️ balao.svg
 │   └── 🖼️ cidade.png
 ├── 📄 index.html
 └── 📄 styles.css

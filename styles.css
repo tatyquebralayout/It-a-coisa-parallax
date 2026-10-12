@@ -48,6 +48,7 @@
 /* Configurações gerais dos balões */
 .balao {
     position: absolute;
+    width: auto; /* mantém a proporção do SVG */
     pointer-events: none; /* Desativa interações com os balões */
     animation: float 4s ease-in-out infinite;
 }
